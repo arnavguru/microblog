@@ -13,3 +13,4 @@ class Config(object):
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIl_PASSWORD')
     ADMINS = [os.environ.get('MY_EMAIL')]
+    POSTS_PER_PAGE = 25
